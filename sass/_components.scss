@@ -86,7 +86,7 @@
   }
 
   &__notification {
-    font-size: .8rem;
+    font-size: 0.8rem;
     height: 1.5rem;
     width: 1.5rem;
     border-radius: 100rem;
@@ -94,7 +94,7 @@
     color: #fff;
     position: absolute;
     top: 1.5rem;
-    right: .5rem;
+    right: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,4 +109,24 @@
     border-radius: 50%;
     margin-right: 1rem;
   }
+}
+
+.side-nav {
+  &__item {
+  }
+
+  &__link {
+  }
+
+  &__icon {
+    width: 1.75rem;
+    height: 1.75rem;
+  }
+}
+
+.legal {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 2.5rem;
+  color: var(--color-grey-light-4);
 }
